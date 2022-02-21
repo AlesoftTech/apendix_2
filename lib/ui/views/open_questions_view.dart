@@ -3,7 +3,6 @@ import 'package:TeSOS/providers/counter_provider.dart';
 import 'package:TeSOS/ui/shared/custom_app_menu.dart';
 import 'package:TeSOS/ui/shared/custom_flat_button.dart';
 import 'package:flutter/material.dart';
-import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 import 'package:provider/provider.dart';
 
 class OpenQuestionsView extends StatelessWidget {
@@ -270,7 +269,7 @@ class Warning extends StatelessWidget {
                       right: 10
                   ),
                   child: Icon(
-                    FontAwesomeIcons.infoCircle,
+                    Icons.info,
                     color: Colors.black,
                     size: 34,
                   ),

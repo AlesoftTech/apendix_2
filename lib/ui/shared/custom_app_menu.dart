@@ -36,19 +36,19 @@ class _TabletDesktopMenu extends StatelessWidget{
                   child: Image.asset('assets/images/isotipoAzul.png')
               )),
           CustomFlatButton(
-            text: 'Propósito',
+            text: 'Purpose',
             onPressed: () =>locator<NavigationService>().navigateTo('/stateful'),
             color: Colors.black,
           ),
           SizedBox(width: 10),
           CustomFlatButton(
-            text: 'Gráficas',
+            text: 'Graphics',
             onPressed: () =>locator<NavigationService>().navigateTo('/provider'),
             color: Colors.black,
           ),
           SizedBox(width: 10),
           CustomFlatButton(
-            text: 'Preguntas Abiertas',
+            text: 'Open Questions',
             onPressed: () =>locator<NavigationService>().navigateTo('/abc123'),
             color: Colors.black,
           ),
